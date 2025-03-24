@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    main{
+        width: 80vw ;
+        height: 60vh;
+        background:linear-gradient( purple, pink);
+        background-size:cover ;
+    }
+
+    div#imagem{
+        float: left;
+        width: 200px;
+        height: 500px;
+    }
+     
+}
+
+@media screen and (min-width:998px) and (max-width:12000px){
+    main{
+        width: 90vw;
+        background:linear-gradient( purple, rgb(143, 23, 43));
+    }
+
+    div#imagem{
+        float: left;
+        width: 400px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --cor01:#04EF4A;
+    --cor02:#13E100;
+    --cor03:#000261;
+    --cor04:#0050E0;
+    --cor05:#17001F;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #17001F;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #800da6;
+    width: 280px;
+    height: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: .1s;
+}
+
+section#login{
+    display: block;
+}
+   
+div#imagem{
+    display: block;
+    background: #2c1e5b url(../imagens/astro\ left.jpg);
+    background-size: contain;
+    width: 280px;
+    height: 100px;
+}
+
+div#forms{
+   padding: 35px;
+}
+
+
+div#forms input {
+    border-radius: 7px;
+    background-color: #5277bd51;
+}
+
+div#forms input:hover{
+   background-color: aliceblue;
+   transition: .1s;
+}
+
+div#forms [type="submit"]{
+    background-color: #b31d8b;
+    padding: 5px ;
+    margin-top:25px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #13439ddf;
+    color: #04EF4A;
+    border-radius: 10px;
+    margin:20px;
+    padding: 3px;
+}
+
